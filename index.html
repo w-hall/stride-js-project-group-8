@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How's That Movie Looking</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="globals.css"/>
+</head>
+<body>
+    <header>
+      <div id="logo">
+          <img src="public/logo.png" height="200px" width="200px" alt="Site logo"/>
+      </div>
+      <div class="menu-bar">
+        <div class="menu-link"><a href="index.html">Home</a></div>
+        <div class="menu-link"><a href="rankings/rankings.html">Ranking</a></div>
+        <div class="menu-link"><a href="reviews/avengers.html">Movies</a></div>
+        <div class="menu-link"><a href="about/about.html">About</a></div>
+      </div>
+    </header>
+    <main>
+        <section class="page-title">
+            <h3><u>H</u>ow's <u>T</u>hat <u>M</u>ovie <u>L</u>ooking?</h3>
+            <h5>Movie Reviews for the Soul</h5>
+            <div class="movie-slider">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="photo-link"><a href="reviews/avengers.html"><img class="slide-photo" src="public/avengers.jpg" alt="Avengers movie poster"></a></div>
+                    <div class="text"><p>Every team needs a Captain.</p></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="photo-link"><a href="reviews/mission_impossible.html"><img class="slide-photo" src="public/mi.jpg" alt="Mission Impossible movie poster"></a></div>
+                    <div class="text"><p>One man has one chance to do the impossible.</p></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="photo-link"><a href="reviews/starwars.html"><img class="slide-photo" src="public/star-wars.jpg" alt="Star Wars movie poster"></a></div>
+                    <div class="text"><p>May the Force be with you.</p></div>
+                </div>
+              <div class="mySlides fade">
+                <div class="photo-link"><a href="reviews/lordoftherings.html"><img class="slide-photo" src="public/lotr.jpg" alt="Lord of the Rings movie poster"></a></div>
+                  <div class="text"><p>Come to Middle-earth, a world beyond the furthest reaches of your imagination.</p></div>
+              </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </section>
+        <section class="suggestions">
+            <div id="suggestions-title">
+                <h4>Want us to review a movie?</h4>
+                <h5>Suggest one below!</h5>
+            </div>
+            <div id="form-container">
+                <form id="suggestions-form" onsubmit="this.reset(); return false;">
+                    <div id="form-questions">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="movie-title">Movie Title:</label>
+                        <input type="text" id="movie-title" name="movie-title">
+                        <label for="movie-director">Director:</label>
+                        <input type="text" id="movie-director" name="movie-director">
+
+                        <label>Available On:</label>
+                        <div id="check-options">
+                            <div>
+                                <input type="checkbox" id="prime" name="prime" value="prime">
+                                <label for="prime"> Amazon Prime</label><br>
+                                <input type="checkbox" id="hbo" name="hbo" value="hbo">
+                                <label for="hbo"> HBO Max</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="netflix" name="netflix" value="netflix">
+                                <label for="netflix"> Netflix</label><br>
+                                <input type="checkbox" id="hulu" name="hulu" value="hulu">
+                                <label for="hulu"> Hulu</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="paramount" name="paramount" value="paramount">
+                                <label for="paramount"> Paramount+</label><br>
+                                <input type="checkbox" id="disney" name="disney" value="disney">
+                                <label for="disney"> Disney+</label>
+                            </div>
+                        </div>
+                        <label id="reason-label" for="reason">Why should we review this movie?</label>
+                        <textarea id="reason" name="reason" rows="4" cols="20"></textarea>
+                    </div>
+                    <div id="submit-container">
+                        <input id="submit" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>Thanks for coming!</h4>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,147 @@
+ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  color: white;
+  float: left;
+  display: block;
+  padding: 15px;
+  margin: 5px;
+  border: 2px solid goldenrod;
+}
+
+.summary p {
+  font-size: 1.5em;
+}
+
+.myreviews {
+  margin-bottom: 75px;
+}
+
+button {
+  background-color: #55555;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px goldenrod;
+}
+
+button:hover {
+  color: goldenrod;
+  box-shadow: 5px 5px #754c00;
+}
+
+.pic_child img {
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 4px -2px goldenrod;
+}
+
+/* for the reviews */
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Create_fancy_boxes */
+.blockquote {
+  min-height: 5em;
+  padding: 1em 4em;
+  font: 1em/150% sans-serif;
+  position: relative;
+}
+
+.blockquote::before,
+.blockquote::after {
+  position: absolute;
+  height: 3rem;
+  font:
+    6rem/100% Georgia,
+    "Times New Roman",
+    Times,
+    serif;
+}
+
+.blockquote::before {
+  content: "''";
+  top: 0.3rem;
+  left: 0.9rem;
+  color: goldenrod;
+}
+
+.blockquote::after {
+  content: "''";
+  bottom: 0.3rem;
+  right: 0.8rem;
+  color: goldenrod;
+}
+
+.blockquote i {
+  display: block;
+  font-size: 0.8em;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+
+.formDiv {
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.formDiv:focus {
+  background-color: green;
+}
+
+#myReview {
+  width: 300px;
+  height: 100px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2px dashed goldenrod;
+  border-radius: 4px;
+  background-color: black;
+  color: goldenrod;
+  font-size: 16px;
+  resize: none;
+  display: block;
+}
+
+#myReview:focus {
+  background-color: #555353;
+}
+
+.submitReview {
+  margin: 5px;
+  float: right;
+  background-color: #fff;
+  border: 1px solid #000;
+  border: none;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px goldenrod;
+}
+
+.submitReview:hover {
+  color: goldenrod;
+  box-shadow: 5px 5px #754c00;
+}
+
+.red {
+  color: red;
+  background-color: red;
+}
+
+.hideButton {
+  display: none;
+}

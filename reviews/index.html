@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Movie Reviews</title>
+  <link rel="stylesheet" href="../globals.css" />
+  <link rel="stylesheet" href="review.css" />
+</head>
+
+<body>
+  <div id="header"></div>
+  <div>
+    <p>Choose a movie</p>
+    <!-- list movies -->
+    <div id="movieButton"></div>
+  </div>
+  <div class="myRealBody">
+
+    <div class="title">
+      <h1>Title of the Movie</h1>
+    </div>
+
+    <div class="summary">
+      <p id="summary">
+        Loading...Summary
+        <!-- use javascript to add summary -->
+      </p>
+    </div>
+
+    <div class="actors">
+      <ul>
+      </ul>
+      <!-- use javascript to add the array of actors -->
+    </div>
+  </div>
+
+  <div class="images">
+    <div></div>
+    <!-- use javascript to add pitures -->
+  </div>
+
+  <div class="myreviews">
+    <p></p>
+    <!-- use javascript to add -->
+  </div>
+
+  <div id="textbox">
+    <div></div>
+  </div>
+
+  <div>
+  </div>
+
+  <div id="footer"></div>
+  <script type="text/javascript" src="script.js"></script>
+  <!-- append default for each movie -->
+
+  <script type="text/javascript">
+    // because of legacy code
+    /* 
+      externalCallMe("Mission Impossible")
+      externalCallMe("The Lord of the Rings")
+      externalCallMe("Star Wars")
+      externalCallMe("Avengers")
+    */
+    externalCallMe("Avengers")
+  </script>
+
+  <!-- v1 - includes user able to submit review -->
+</body>
+
+</html>

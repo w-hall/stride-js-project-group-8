@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: goldenrod;
+}
+
+/*
+.header {
+    background-color: white;
+} 
+*/
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+/* copied team mate's stying cues below */
+
+button {
+    background-color: #555353;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px goldenrod;
+}
+
+button:hover {
+    color: goldenrod;
+    box-shadow: 5px 5px #754c00;
+}
+/* copied team mate's stying cues above */
+
+.centerbtns {
+    width: 40%;
+    margin: auto;
+}
+
+
+.container {
+    width: 800px;
+    /* centers the box */
+    margin: auto;
+}
+
+.singleactor {
+    background-color: grey;
+    margin: 20px;
+}
+
+.actor_name {
+    text-emphasis-color: black;
+    float: left;
+    left: 80%;
+    padding-left: 10px;
+}
+
+.actor_image>* {
+    width: 100%;
+}
+
+.role_description>* {
+    font-style: italic;
+    font-size: 1vmax;
+    padding: 10px;
+    margin: 10px;
+}

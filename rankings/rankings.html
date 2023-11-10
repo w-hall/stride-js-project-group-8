@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>All movies</title>
+  <link rel="stylesheet" type="text/css" href="/globals.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <img src="/public/logo.png" height="200px" width="200px" alt="Site logo" />
+    </div>
+    <div class="menu-bar">
+      <div class="menu-link"><a href="/index.html">Home</a></div>
+      <div class="menu-link"><a href="/rankings/rankings.html">Ranking</a></div>
+      <div class="menu-link"><a href="/reviews/avengers.html">Movies</a></div>
+      <div class='menu-link'><a href='../about/about.html'>About</a></div>
+    </div>
+  </header>
+  <script src="script.js">
+  </script>
+  <input type="text" id="search-bar" placeholder="Search movies..." oninput="filterMovies()">
+  <select id="rating-filter" onchange="filterMovies()">
+    <option value="all">All ratings</option>
+    <option value="5">5 Stars</option>
+    <option value="4">4+ Stars</option>
+    <option value="3">3+ Stars</option>
+  </select>
+  <ul id="movie-list">
+    <li data-rating="5"><span class="stars"></span> - <a href="/reviews/avengers.html">Avengers</a></li>
+    <li data-rating="4"><span class="stars"></span> - <a href="/reviews/lordoftherings.html">Lord of the Rings</a></li>
+    <li data-rating="3"><span class="stars"></span> - <a href="/reviews/starwars.html">Star Wars</a></li>
+    <li data-rating="3"><span class="stars"></span> - Inception</li>
+    <li data-rating="4"><span class="stars"></span> - Home Alone</li>
+    <li data-rating="3"><span class="stars"></span> - Interstellar</li>
+    <li data-rating="2"><span class="stars"></span> - Barbie</li>
+    <li data-rating="3"><span class="stars"></span> - Harry Potter</li>
+    <li data-rating="3"><span class="stars"></span> - Batman</li>
+    <li data-rating="1"><span class="stars"></span> - Oppenheimer</li>
+
+  </ul>
+  <footer>
+    <h4>Thanks for coming!</h4>
+  </footer>
+</body>
+
+</html>

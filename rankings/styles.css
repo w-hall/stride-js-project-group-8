@@ -8,3 +8,15 @@ li {
 .grey-star {
   color:grey
 }
+input{
+  width: 300px;
+  height: 25px;
+  margin-left: 25px;
+}
+#rating-filter{
+  height: 25px;
+}
+li{
+  font-size: 40px;
+  align-items: center;
+}

@@ -1,24 +1,13 @@
-total 120
-drwxr-xr-x 11 coder  coder    6144 Nov 10 23:48 .
-drwxrwxrwx  4 nobody nogroup  6144 Nov 10 23:47 ..
-drwxr-xr-x  3 coder  coder    6144 Nov 10 23:47 about
-drwxr-xr-x  4 coder  coder    6144 Nov 10 23:47 .cache
--rw-r--r--  1 coder  coder       0 Nov 10 23:49 class.txt
-drwxr-xr-x  3 coder  coder    6144 Nov 10 23:47 .config
-drwxr-xr-x  8 coder  coder    6144 Nov 10 23:47 .git
--rw-r--r--  1 coder  coder    1956 Nov 10 23:47 globals.css
--rw-r--r--  1 coder  coder    5970 Nov 10 23:47 index.html
-drwxr-xr-x 17 coder  coder    6144 Nov 10 23:47 node_modules
--rw-r--r--  1 coder  coder     210 Nov 10 23:47 package.json
--rw-r--r--  1 coder  coder   29290 Nov 10 23:47 package-lock.json
-drwxr-xr-x  2 coder  coder    6144 Nov 10 23:47 public
-drwxr-xr-x  2 coder  coder    6144 Nov 10 23:47 rankings
--rw-r--r--  1 coder  coder     275 Nov 10 23:47 .replit
--rw-r--r--  1 coder  coder      26 Nov 10 23:47 replit.nix
--rw-r--r--  1 coder  coder    1162 Nov 10 23:47 replit_zip_error_log.txt
-drwxr-xr-x  3 coder  coder    6144 Nov 10 23:47 reviews
--rw-r--r--  1 coder  coder     800 Nov 10 23:47 script.js
--rw-r--r--  1 coder  coder    3115 Nov 10 23:47 styles.css
-drwxr-xr-x  2 coder  coder    6144 Nov 10 23:47 .upm
--rw-r--r--  1 coder  coder     153 Nov 10 23:47 vite.config.js
-making a change so I can perform the diff requested in the lab.
+Crimson
+Orange
+Blue
+Cyan
+Yellow
+Charcoal
+Khaki
+Coral
+Silver
+Fuchsia
+Purple
+Brown
+Red
